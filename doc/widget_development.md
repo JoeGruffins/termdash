@@ -144,4 +144,4 @@ func TestWidget(t *testing.T) {
 
 Once the widget is completed, add a demo into a **demo** sub directory under
 the widget's package and record a GIF of the demo. Place the recorded GIF into
-the [README](http://github.com/mum4k/termdash).
+the [README](http://github.com/joegruffins/termdash).

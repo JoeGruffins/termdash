@@ -19,7 +19,7 @@ package sparkline
 import (
 	"fmt"
 
-	"github.com/mum4k/termdash/cell"
+	"github.com/joegruffins/termdash/cell"
 )
 
 // Option is used to provide options.

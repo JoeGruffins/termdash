@@ -22,15 +22,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/alignfor"
-	"github.com/mum4k/termdash/internal/area"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/draw"
-	"github.com/mum4k/termdash/internal/runewidth"
-	"github.com/mum4k/termdash/linestyle"
-	"github.com/mum4k/termdash/terminal/terminalapi"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/joegruffins/termdash/cell"
+	"github.com/joegruffins/termdash/internal/alignfor"
+	"github.com/joegruffins/termdash/internal/area"
+	"github.com/joegruffins/termdash/internal/canvas"
+	"github.com/joegruffins/termdash/internal/draw"
+	"github.com/joegruffins/termdash/internal/runewidth"
+	"github.com/joegruffins/termdash/linestyle"
+	"github.com/joegruffins/termdash/terminal/terminalapi"
+	"github.com/joegruffins/termdash/widgetapi"
 )
 
 // progressType indicates how was the current progress provided by the caller.

@@ -18,11 +18,11 @@ import (
 	"image"
 	"testing"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/area"
-	"github.com/mum4k/termdash/internal/canvas/braille"
-	"github.com/mum4k/termdash/internal/canvas/braille/testbraille"
-	"github.com/mum4k/termdash/internal/faketerm"
+	"github.com/joegruffins/termdash/cell"
+	"github.com/joegruffins/termdash/internal/area"
+	"github.com/joegruffins/termdash/internal/canvas/braille"
+	"github.com/joegruffins/termdash/internal/canvas/braille/testbraille"
+	"github.com/joegruffins/termdash/internal/faketerm"
 )
 
 // mustBrailleLine draws the braille line or panics.

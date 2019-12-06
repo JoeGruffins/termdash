@@ -21,8 +21,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/mum4k/termdash/internal/canvas/buffer"
-	"github.com/mum4k/termdash/internal/runewidth"
+	"github.com/joegruffins/termdash/internal/canvas/buffer"
+	"github.com/joegruffins/termdash/internal/runewidth"
 )
 
 // Mode sets the wrapping mode.

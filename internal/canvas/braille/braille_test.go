@@ -19,11 +19,11 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/area"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/canvas/testcanvas"
-	"github.com/mum4k/termdash/internal/faketerm"
+	"github.com/joegruffins/termdash/cell"
+	"github.com/joegruffins/termdash/internal/area"
+	"github.com/joegruffins/termdash/internal/canvas"
+	"github.com/joegruffins/termdash/internal/canvas/testcanvas"
+	"github.com/joegruffins/termdash/internal/faketerm"
 )
 
 func Example_copiedToCanvas() {

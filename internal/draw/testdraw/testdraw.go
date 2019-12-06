@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/canvas/braille"
-	"github.com/mum4k/termdash/internal/draw"
+	"github.com/joegruffins/termdash/internal/canvas"
+	"github.com/joegruffins/termdash/internal/canvas/braille"
+	"github.com/joegruffins/termdash/internal/draw"
 )
 
 // MustBorder draws border on the canvas or panics.

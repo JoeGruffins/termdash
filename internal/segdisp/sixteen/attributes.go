@@ -22,9 +22,9 @@ import (
 	"image"
 	"math"
 
-	"github.com/mum4k/termdash/internal/numbers"
-	"github.com/mum4k/termdash/internal/segdisp"
-	"github.com/mum4k/termdash/internal/segdisp/segment"
+	"github.com/joegruffins/termdash/internal/numbers"
+	"github.com/joegruffins/termdash/internal/segdisp"
+	"github.com/joegruffins/termdash/internal/segdisp/segment"
 )
 
 // hvSegType maps horizontal and vertical segments to their type.

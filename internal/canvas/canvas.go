@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/area"
-	"github.com/mum4k/termdash/internal/canvas/buffer"
-	"github.com/mum4k/termdash/internal/runewidth"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/joegruffins/termdash/cell"
+	"github.com/joegruffins/termdash/internal/area"
+	"github.com/joegruffins/termdash/internal/canvas/buffer"
+	"github.com/joegruffins/termdash/internal/runewidth"
+	"github.com/joegruffins/termdash/terminal/terminalapi"
 )
 
 // Canvas is where a widget draws its output for display on the terminal.

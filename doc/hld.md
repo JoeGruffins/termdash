@@ -6,7 +6,7 @@ Develop infrastructure of dashboard widgets. The widgets should support both
 input (mouse and keyboard) and output (display of information to the user).
 
 Fulfil the requirements outlined in the main
-[README](http://github.com/mum4k/termdash).
+[README](http://github.com/joegruffins/termdash).
 
 ## Background
 
@@ -156,12 +156,12 @@ primary purpose is to act as a shim layer over different terminal
 implementations.
 
 The Terminal API is defined in the
-[terminalapi](http://github.com/mum4k/termdash/terminalapi/terminalapi.go)
+[terminalapi](http://github.com/joegruffins/termdash/terminalapi/terminalapi.go)
 package.
 
 The **Event()** method returns the next input event. Different input event
 types are defined in the
-[event.go](http://github.com/mum4k/termdash/terminalapi/event.go)
+[event.go](http://github.com/joegruffins/termdash/terminalapi/event.go)
 file.
 
 ### Container API
@@ -174,11 +174,11 @@ The containers further accept styling options and alignment options. The
 following indicates how the Container API will be used.
 
 The Container API is defined in the
-[container](http://github.com/mum4k/termdash/container/container.go)
+[container](http://github.com/joegruffins/termdash/container/container.go)
 package.
 
 A demonstration how this is used from the client perspective is in the
-[container_test.go](http://github.com/mum4k/termdash/container/container_test.go)
+[container_test.go](http://github.com/joegruffins/termdash/container/container_test.go)
 file.
 
 ### Widget API
@@ -188,11 +188,11 @@ be thread-safe since the calls that update the displayed values come in
 concurrently with requests and events from the infrastructure.
 
 The Widget API is defined in the
-[widget](http://github.com/mum4k/termdash/widget/widget.go)
+[widget](http://github.com/joegruffins/termdash/widget/widget.go)
 package.
 
 Each widget gets a Canvas to draw on. The Canvas API is defined in the
-[canvas](http://github.com/mum4k/termdash/canvas/canvas.go)
+[canvas](http://github.com/joegruffins/termdash/canvas/canvas.go)
 package.
 
 ## Testing plan

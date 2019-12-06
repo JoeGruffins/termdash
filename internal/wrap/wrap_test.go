@@ -21,8 +21,8 @@ import (
 	"unicode"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas/buffer"
+	"github.com/joegruffins/termdash/cell"
+	"github.com/joegruffins/termdash/internal/canvas/buffer"
 )
 
 func TestValidTextAndCells(t *testing.T) {

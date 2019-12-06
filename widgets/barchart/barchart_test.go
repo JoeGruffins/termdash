@@ -19,13 +19,13 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas"
-	"github.com/mum4k/termdash/internal/canvas/testcanvas"
-	"github.com/mum4k/termdash/internal/draw"
-	"github.com/mum4k/termdash/internal/draw/testdraw"
-	"github.com/mum4k/termdash/internal/faketerm"
-	"github.com/mum4k/termdash/widgetapi"
+	"github.com/joegruffins/termdash/cell"
+	"github.com/joegruffins/termdash/internal/canvas"
+	"github.com/joegruffins/termdash/internal/canvas/testcanvas"
+	"github.com/joegruffins/termdash/internal/draw"
+	"github.com/joegruffins/termdash/internal/draw/testdraw"
+	"github.com/joegruffins/termdash/internal/faketerm"
+	"github.com/joegruffins/termdash/widgetapi"
 )
 
 func TestBarChart(t *testing.T) {

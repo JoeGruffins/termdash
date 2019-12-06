@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/keyboard"
-	"github.com/mum4k/termdash/mouse"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/joegruffins/termdash/keyboard"
+	"github.com/joegruffins/termdash/mouse"
+	"github.com/joegruffins/termdash/terminal/terminalapi"
 
 	tbx "github.com/nsf/termbox-go"
 )

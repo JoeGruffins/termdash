@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/cell"
+	"github.com/joegruffins/termdash/cell"
 )
 
 func Example() {

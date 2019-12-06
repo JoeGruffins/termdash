@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/mum4k/termdash/cell"
-	"github.com/mum4k/termdash/internal/canvas"
+	"github.com/joegruffins/termdash/cell"
+	"github.com/joegruffins/termdash/internal/canvas"
 )
 
 // RectangleOption is used to provide options to the Rectangle function.

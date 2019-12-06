@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/mum4k/termdash/internal/numbers"
+	"github.com/joegruffins/termdash/internal/numbers"
 )
 
 // ValueOption is used to provide options to the NewValue function.

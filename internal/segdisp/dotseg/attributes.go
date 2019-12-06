@@ -22,11 +22,11 @@ import (
 	"image"
 	"math"
 
-	"github.com/mum4k/termdash/align"
-	"github.com/mum4k/termdash/internal/alignfor"
-	"github.com/mum4k/termdash/internal/area"
-	"github.com/mum4k/termdash/internal/segdisp"
-	"github.com/mum4k/termdash/internal/segdisp/sixteen"
+	"github.com/joegruffins/termdash/align"
+	"github.com/joegruffins/termdash/internal/alignfor"
+	"github.com/joegruffins/termdash/internal/area"
+	"github.com/joegruffins/termdash/internal/segdisp"
+	"github.com/joegruffins/termdash/internal/segdisp/sixteen"
 )
 
 // attributes contains attributes needed to draw the segment display.

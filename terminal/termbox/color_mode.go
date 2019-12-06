@@ -17,7 +17,7 @@ package termbox
 import (
 	"fmt"
 
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/joegruffins/termdash/terminal/terminalapi"
 	tbx "github.com/nsf/termbox-go"
 )
 

@@ -20,7 +20,7 @@ import (
 	"image"
 	"math"
 
-	"github.com/mum4k/termdash/internal/canvas/braille"
+	"github.com/joegruffins/termdash/internal/canvas/braille"
 )
 
 // startEndAngles given progress indicators and the desired start angle and

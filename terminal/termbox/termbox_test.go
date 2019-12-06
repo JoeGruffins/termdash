@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/mum4k/termdash/terminal/terminalapi"
+	"github.com/joegruffins/termdash/terminal/terminalapi"
 )
 
 func TestNewTerminal(t *testing.T) {
