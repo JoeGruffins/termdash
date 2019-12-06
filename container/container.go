@@ -257,6 +257,18 @@ func (c *Container) Update(id string, opts ...Option) error {
 	return nil
 }
 
+func (c *Container) FocusID(id string) error {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+
+	target, err := findID(c, id)
+	if err != nil {
+		return err
+	}
+	c.focusTracker.setActive(target)
+	return nil
+}
+
 // updateFocus processes the mouse event and determines if it changes the
 // focused container.
 // Caller must hold c.mu.
